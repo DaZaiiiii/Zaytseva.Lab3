@@ -15,7 +15,7 @@ namespace Zaytseva.Lab3.Exercise1
             {
                 Console.WriteLine(Math.Abs((3 * x) - 2));
             }
-            if (0 <= x & x <= 200)
+            else if (0 <= x & x <= 200)
             {
                 Console.WriteLine(Math.Abs(3 + x));
             }
